@@ -2,15 +2,20 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial- scale">
     <link rel="stylesheet" href="backround_styles.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="body.css">
+    <script src="script.js" defer>
+    </script>
     <title>Responsive Navbar</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="brand-title">Brand Name</div>
+        <div class="brand-title">Youtuber Lixfer</div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -18,12 +23,22 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <div class="container">
+        <section class="one" id="home">
+            <h1>Home</h1>
+        </section>
+        <section class="two" id="about">
+            <h1>About</h1>
+        </section>
+        <section class=" three " id="contact">
+            <h1>Contact</h1>
+        </section>
 </body>
 
 </html>

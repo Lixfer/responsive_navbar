@@ -1,0 +1,36 @@
+    section {
+        scroll-snap-align: start;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        color: white
+    }
+    
+    .container {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+        scroll-padding: 50px;
+    }
+    
+    .one {
+        background: rgb(36, 164, 138);
+        height: 1200px;
+    }
+    
+    .two {
+        background: rgb(211, 79, 79);
+        height: 1200px;
+    }
+    
+    .three {
+        background: rgb(67, 91, 175);
+        height: 1200px;
+    }
+    
+    .four {
+        background: lightsalmon;
+        height: 1200px;
+    }
